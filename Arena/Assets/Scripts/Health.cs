@@ -9,6 +9,7 @@ public class Health : MonoBehaviour {
     public Text text;
     public Text health;
     public MageMotion MageMotionScript;
+    public GameObject blade;
 
     public WarriorMotion WarriorMotionScript;
 
@@ -53,7 +54,6 @@ public class Health : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("entered start collider");
         if (toon == 1) 
         {
 
@@ -69,19 +69,33 @@ public class Health : MonoBehaviour {
                 Destroy(collision.gameObject);
 
             }
+
+            if (collision.transform.tag == "Blade" && playerAlive && !GetComponentInChildren<BubbleScript>().shieldUp)
+            {
+                h -= 10;
+            }
+
+            else if (collision.transform.tag == "Blade" && playerAlive && GetComponentInChildren<BubbleScript>().shieldUp)
+            {
+
+            }
         }
 
         if (toon == 2)
         {
-            Debug.Log("Entered Warrior Colider");
+            if (collision.transform.tag == "Projectile" && playerAlive && anim.GetBool("shieldUp") == true)
+            {
+                Destroy(collision.gameObject);
+            }
 
-            if (collision.transform.tag == "Projectile" && playerAlive)
+            else if (collision.transform.tag == "Projectile" && playerAlive)
             {
                 h -= 10;
                 Destroy(collision.gameObject);
             }
 
         }
+        
 
     }
 

@@ -17,7 +17,7 @@ public class BubbleScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("z") && cooldown >= 10 && player ==1)
+        if (Input.GetKeyDown("c") && cooldown >= 10 && player ==1)
         {
             shieldUp = true;
             cooldown = 0;

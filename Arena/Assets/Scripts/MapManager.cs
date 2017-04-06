@@ -24,7 +24,7 @@ public class MapManager : MonoBehaviour {
 
         if (PlayerSelectionsScript.player1class == 1)
         {
-            Instantiate(Mage, new Vector3(1, 1, 0), Quaternion.identity);
+            Instantiate(Mage, new Vector3(3.15f, 3.15f, 0), Quaternion.identity);
             playerIDScript = GameObject.FindObjectOfType<PlayerID>();
             playerIDScript.player = 1;
             playerIDScript.toon = 1;
@@ -32,7 +32,7 @@ public class MapManager : MonoBehaviour {
 
         if (PlayerSelectionsScript.player2class == 1 && PlayerSelectionsScript.player1class !=1)
         {
-            Instantiate(Mage, new Vector3(5, 1, 0), Quaternion.identity);
+            Instantiate(Mage, new Vector3(12, 3.15f, 0), Quaternion.identity);
             playerIDScript = GameObject.FindObjectOfType<PlayerID>();
             playerIDScript.player = 2;
             playerIDScript.toon = 1;
@@ -40,7 +40,7 @@ public class MapManager : MonoBehaviour {
 
         if (PlayerSelectionsScript.player2class == 1 && PlayerSelectionsScript.player1class == 1)
         {
-            Instantiate(Mage2, new Vector3(5, 1, 0), Quaternion.identity);
+            Instantiate(Mage2, new Vector3(12, 3.15f, 0), Quaternion.identity);
             playerIDScript = GameObject.FindObjectOfType<PlayerID>();
             playerIDScript.player = 2;
             playerIDScript.toon = 1;
@@ -48,7 +48,7 @@ public class MapManager : MonoBehaviour {
         /////////////////////////////////////////////////////////////////
         if (PlayerSelectionsScript.player1class == 2)
         {
-            Instantiate(Warrior, new Vector3(1, 1, 0), Quaternion.identity);
+            Instantiate(Warrior, new Vector3(3.15f, 3.15f, 0), Quaternion.identity);
             playerIDScript = GameObject.FindObjectOfType<PlayerID>();
             playerIDScript.player = 1;
             playerIDScript.toon = 2;
@@ -56,7 +56,7 @@ public class MapManager : MonoBehaviour {
 
         if (PlayerSelectionsScript.player2class == 2 && PlayerSelectionsScript.player1class != 2)
         {
-            Instantiate(Warrior, new Vector3(5, 1, 0), Quaternion.identity);
+            Instantiate(Warrior, new Vector3(12, 3.15f, 0), Quaternion.identity);
             playerIDScript = GameObject.FindObjectOfType<PlayerID>();
             playerIDScript.player = 2;
             playerIDScript.toon = 2;
@@ -64,7 +64,7 @@ public class MapManager : MonoBehaviour {
 
         if (PlayerSelectionsScript.player2class == 2 && PlayerSelectionsScript.player1class == 2)
         {
-            Instantiate(Warrior, new Vector3(5, 1, 0), Quaternion.identity);
+            Instantiate(Warrior, new Vector3(12, 3.15f, 0), Quaternion.identity);
             playerIDScript = GameObject.FindObjectOfType<PlayerID>();
             playerIDScript.player = 2;
             playerIDScript.toon = 2;

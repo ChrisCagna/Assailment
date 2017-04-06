@@ -10,11 +10,12 @@ public class MageMotion : MonoBehaviour {
     Animator anim;
 
     public Grounded GroundedScript;
-    public int player = 2;
+    public int player;
 
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
+        player = GetComponent<PlayerID>().player;
     }
 
     // Update is called once per frame

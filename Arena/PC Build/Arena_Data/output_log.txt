@@ -1,0 +1,84 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7892
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.112 seconds
+Platform assembly: F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\OneDrive\Unity Repo\Projects\Arena\PC Build\Arena_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 0.696563 ms
+Trying to load: Modes
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.233399 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 311.
+Total: 0.197729 ms (FindLiveObjects: 0.023161 ms CreateObjectMapping: 0.014628 ms MarkObjects: 0.147748 ms  DeleteObjects: 0.011459 ms)
+
+Trying to load: P1Class
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.309394 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 323.
+Total: 0.163108 ms (FindLiveObjects: 0.017798 ms CreateObjectMapping: 0.009752 ms MarkObjects: 0.124098 ms  DeleteObjects: 0.010727 ms)
+
+Trying to load: P2Class
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.684860 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 0.153599 ms (FindLiveObjects: 0.017310 ms CreateObjectMapping: 0.009264 ms MarkObjects: 0.123367 ms  DeleteObjects: 0.003169 ms)
+
+Trying to load: Maps
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Clicked the button
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.290376 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 323.
+Total: 0.206018 ms (FindLiveObjects: 0.017554 ms CreateObjectMapping: 0.038034 ms MarkObjects: 0.135070 ms  DeleteObjects: 0.015116 ms)
+
+Trying to load: Map1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.330361 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 483.
+Total: 0.187001 ms (FindLiveObjects: 0.019504 ms CreateObjectMapping: 0.011946 ms MarkObjects: 0.139946 ms  DeleteObjects: 0.015359 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 36e4 -> priority: 1 
+  Thread -> id: 1f8c -> priority: 1 
+  Thread -> id: 29ec -> priority: 1 
+  Thread -> id: 3408 -> priority: 1 
